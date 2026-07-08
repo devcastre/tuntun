@@ -1,9 +1,27 @@
-export default function Home() {
+import Header from "@/components/Header";
+import LayerControl from "@/components/LayerControl";
+import Map from "@/components/Map";
+
+
+export default function Home(){
+
   return (
-    <main>
-      <h1>
-        Philippine Geographic Information Map System
-      </h1>
+
+    <main className="relative h-screen w-full overflow-hidden">
+
+
+      <Header />
+
+
+      <div className="h-full w-full bg-blue-100 flex items-center justify-center text-4xl text-gray-500">
+        <Map />
+      </div>
+
+
+      <LayerControl />
+
+
     </main>
-  );
+
+  )
 }
