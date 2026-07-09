@@ -2,14 +2,16 @@
 
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
-
 import "maplibre-gl/dist/maplibre-gl.css";
 
 
-export default function Map() {
+export default function Map({ location }) {
 
     const mapContainer = useRef(null);
+    const mapRef = useRef(null);
 
+
+    // Create map once
     useEffect(() => {
 
         const map = new maplibregl.Map({
@@ -19,12 +21,12 @@ export default function Map() {
             style:
             "https://tiles.openfreemap.org/styles/liberty",
 
-            center: [
+            center:[
                 121.7740,
                 12.8797
             ],
 
-            zoom: 5
+            zoom:5
 
         });
 
@@ -35,6 +37,9 @@ export default function Map() {
         );
 
 
+        mapRef.current = map;
+
+
         return () => {
             map.remove();
         };
@@ -43,7 +48,31 @@ export default function Map() {
     }, []);
 
 
+
+    // Move map when search result changes
+    useEffect(() => {
+
+        if (!location || !mapRef.current) return;
+
+
+        mapRef.current.flyTo({
+
+            center:[
+                location.lon,
+                location.lat
+            ],
+
+            zoom:11
+
+        });
+
+
+    }, [location]);
+
+
+
     return (
+
         <div
             ref={mapContainer}
             style={{
@@ -51,5 +80,6 @@ export default function Map() {
                 height:"100vh"
             }}
         />
+
     );
 }

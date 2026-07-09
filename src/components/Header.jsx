@@ -1,4 +1,6 @@
-export default function Header(){
+import SearchBar from "./SearchBar";
+
+export default function Header({ search, setSearch, onSearch}){
 
 return (
 
@@ -9,10 +11,12 @@ return (
         Tuntun
     </h1>
 
+    <SearchBar
+        search={search}
+        setSearch={setSearch}
+        onSearch={onSearch}
+    />
 
-    <div className="rounded-full bg-gray-100 px-5 py-3 text-gray-500 w-72">
-        Search location...
-    </div>
 
 
 </header>
