@@ -11,7 +11,7 @@ export default function Map({ location }) {
     const mapRef = useRef(null);
 
 
-    // Create map once
+   
     useEffect(() => {
 
         const map = new maplibregl.Map({
@@ -36,6 +36,36 @@ export default function Map({ location }) {
             "top-right"
         );
 
+        
+        map.on("load", () => {
+
+            map.addSource("regions", {
+                type: "geojson",
+                data: "/data/regions.json"
+            });
+
+            map.addLayer({
+                id: "regions-fill",
+                type: "fill",
+                source: "regions",
+                paint: {
+                    "fill-color": "#2563eb",
+                    "fill-opacity": 0.1
+                }
+            });
+
+            map.addLayer({
+                id: "regions-outline",
+                type: "line",
+                source: "regions",
+                paint: {
+                    "line-color": "#2563eb",
+                    "line-width": 2
+                }
+            });
+
+        });
+
 
         mapRef.current = map;
 
@@ -49,7 +79,7 @@ export default function Map({ location }) {
 
 
 
-    // Move map when search result changes
+
     useEffect(() => {
 
         if (!location || !mapRef.current) return;

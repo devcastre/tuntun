@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Mayon Volcano",
+    "lat": 13.257,
+    "lng": 123.685
+  },
+  {
+    "id": 2,
+    "name": "Taal Volcano",
+    "lat": 14.002,
+    "lng": 120.993
+  },
+  {
+    "id": 3,
+    "name": "Mount Pinatubo",
+    "lat": 15.142,
+    "lng": 120.350
+  }
+]
