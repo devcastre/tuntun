@@ -3,6 +3,9 @@
 import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { addProvinces } from "@/config/provincelayer";
+import { addCities } from "@/config/citieslayer";
+import { addRegions } from "@/config/regionlayer";
 
 
 export default function Map({ location }) {
@@ -39,30 +42,32 @@ export default function Map({ location }) {
         
         map.on("load", () => {
 
-            map.addSource("regions", {
-                type: "geojson",
-                data: "/data/regions.json"
-            });
 
-            map.addLayer({
-                id: "regions-fill",
-                type: "fill",
-                source: "regions",
-                paint: {
-                    "fill-color": "#2563eb",
-                    "fill-opacity": 0.1
-                }
-            });
+            // addRegions(map)
 
-            map.addLayer({
-                id: "regions-outline",
-                type: "line",
-                source: "regions",
-                paint: {
-                    "line-color": "#2563eb",
-                    "line-width": 2
-                }
-            });
+            addProvinces(map)
+
+            // addCities(map)
+
+
+
+            
+            // map.addSource("barangays", {
+            //     type: "geojson",
+            //     data: "/data/barangays.json"
+            // });
+
+            // map.addLayer({
+            //     id: "barangays-outline",
+            //     type: "line",
+            //     source: "barangays",
+            //     paint: {
+            //         "line-color": "#63eb25",
+            //         "line-width": 0.15
+            //     }
+            // });               
+
+
 
         });
 
