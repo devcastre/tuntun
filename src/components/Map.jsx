@@ -4,11 +4,12 @@ import { useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { addProvinces } from "@/config/provincelayer";
-import { addCities } from "@/config/citieslayer";
 import { addRegions } from "@/config/regionlayer";
+import { addHospitals } from "@/config/hospitallayer";
 
 
-export default function Map({ location }) {
+
+export default function Map({ location, setSelectedLocation }) {
 
     const mapContainer = useRef(null);
     const mapRef = useRef(null);
@@ -29,7 +30,7 @@ export default function Map({ location }) {
                 12.8797
             ],
 
-            zoom:5
+            zoom:7
 
         });
 
@@ -40,34 +41,14 @@ export default function Map({ location }) {
         );
 
         
-        map.on("load", () => {
+        map.on("load", async() => {
 
 
-            // addRegions(map)
+            // await addRegions(map, setSelectedLocation)
 
-            addProvinces(map)
+            // await addProvinces(map, setSelectedLocation)
 
-            // addCities(map)
-
-
-
-            
-            // map.addSource("barangays", {
-            //     type: "geojson",
-            //     data: "/data/barangays.json"
-            // });
-
-            // map.addLayer({
-            //     id: "barangays-outline",
-            //     type: "line",
-            //     source: "barangays",
-            //     paint: {
-            //         "line-color": "#63eb25",
-            //         "line-width": 0.15
-            //     }
-            // });               
-
-
+            addHospitals(map, setSelectedLocation)
 
         });
 

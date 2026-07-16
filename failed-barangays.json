@@ -1,0 +1,592 @@
+[
+  {
+    "index": 2255,
+    "name": "Dewey",
+    "city": "Bolinao",
+    "province": "Pangasinan",
+    "region": "Region I (Ilocos Region)",
+    "center_lat": 16.40651265,
+    "center_lon": 119.96274706,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 5714,
+    "name": "San Carlos",
+    "city": "Mariveles",
+    "province": "Bataan",
+    "region": "Region III (Central Luzon)",
+    "center_lat": 14.43610088,
+    "center_lon": 120.48653505,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 6091,
+    "name": "Hulo",
+    "city": "Obando",
+    "province": "Bulacan",
+    "region": "Region III (Central Luzon)",
+    "center_lat": 14.72073374,
+    "center_lon": 120.92811254,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 6506,
+    "name": "San Roque Sur",
+    "city": "Cabanatuan City",
+    "province": "Nueva Ecija",
+    "region": "Region III (Central Luzon)",
+    "center_lat": 15.4708497,
+    "center_lon": 120.95927372,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 7496,
+    "name": "Santo Rosario",
+    "city": "Mabalacat City",
+    "province": "Pampanga",
+    "region": "Region III (Central Luzon)",
+    "center_lat": 15.21608872,
+    "center_lon": 120.57987721,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 10047,
+    "name": "Sampaloc V",
+    "city": "City of Dasmariñas",
+    "province": "Cavite",
+    "region": "Region IV-A (Calabarzon)",
+    "center_lat": 14.28039289,
+    "center_lon": 120.96500752,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 11863,
+    "name": "Barangay 3 (Pob.)",
+    "city": "Lucban",
+    "province": "Quezon",
+    "region": "Region IV-A (Calabarzon)",
+    "center_lat": 14.11532474,
+    "center_lon": 121.55049546,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 15174,
+    "name": "Sapatos",
+    "city": "Balud",
+    "province": "Masbate",
+    "region": "Region V (Bicol Region)",
+    "center_lat": 11.75696354,
+    "center_lon": 123.02421445,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 15513,
+    "name": "Naboctot",
+    "city": "Placer",
+    "province": "Masbate",
+    "region": "Region V (Bicol Region)",
+    "center_lat": 11.85757585,
+    "center_lon": 123.76831984,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 15514,
+    "name": "Nagarao",
+    "city": "Placer",
+    "province": "Masbate",
+    "region": "Region V (Bicol Region)",
+    "center_lat": 11.81813837,
+    "center_lon": 123.84522502,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 18158,
+    "name": "Manipulon",
+    "city": "Estancia",
+    "province": "Iloilo",
+    "region": "Region VI (Western Visayas)",
+    "center_lat": 11.43656071,
+    "center_lon": 123.17457926,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 19079,
+    "name": "Naborot",
+    "city": "San Dionisio",
+    "province": "Iloilo",
+    "region": "Region VI (Western Visayas)",
+    "center_lat": 11.30739648,
+    "center_lon": 123.1499997,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 19516,
+    "name": "Montevista",
+    "city": "Bacolod City (Capital)",
+    "province": "Negros Occidental",
+    "region": "Region VI (Western Visayas)",
+    "center_lat": 10.66825835,
+    "center_lon": 122.97112874,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 20718,
+    "name": "Cuaming",
+    "city": "Inabanga",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.11265166,
+    "center_lon": 123.9881981,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 20724,
+    "name": "Hambongan",
+    "city": "Inabanga",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.07059654,
+    "center_lon": 124.02307482,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21045,
+    "name": "Butan",
+    "city": "President Carlos P. Garcia (Pitogo)",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.16377568,
+    "center_lon": 124.49967603,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21165,
+    "name": "Calituban",
+    "city": "Talibon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.24864599,
+    "center_lon": 124.29432394,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21170,
+    "name": "Nocnocan",
+    "city": "Talibon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.24609711,
+    "center_lon": 124.40388214,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21206,
+    "name": "Bagongbanwa",
+    "city": "Tubigon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.05515158,
+    "center_lon": 123.89941588,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21210,
+    "name": "Bilangbilangan (Bilangbilangan Island)",
+    "city": "Tubigon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 9.98744712,
+    "center_lon": 123.8822454,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21223,
+    "name": "Mocaboc Island",
+    "city": "Tubigon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.07146638,
+    "center_lon": 123.92774517,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21228,
+    "name": "Pangapasan (Pangapasan Island)",
+    "city": "Tubigon",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 9.99798227,
+    "center_lon": 123.94062026,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21319,
+    "name": "Bilangbilangan Dako",
+    "city": "Bien Unido",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.24852003,
+    "center_lon": 124.45102187,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21320,
+    "name": "Bilangbilangan Diot",
+    "city": "Bien Unido",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.24336816,
+    "center_lon": 124.46577744,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21324,
+    "name": "Malingin",
+    "city": "Bien Unido",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.16065477,
+    "center_lon": 124.44230568,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21332,
+    "name": "Sagasa",
+    "city": "Bien Unido",
+    "province": "Bohol",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.20323357,
+    "center_lon": 124.41506282,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21812,
+    "name": "Gilutongan",
+    "city": "Cordova",
+    "province": "Cebu",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.20654946,
+    "center_lon": 123.98862547,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21972,
+    "name": "Cawhagan",
+    "city": "Lapu-Lapu City (Opon)",
+    "province": "Cebu",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.20288713,
+    "center_lon": 124.0192126,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 21973,
+    "name": "Caubian",
+    "city": "Lapu-Lapu City (Opon)",
+    "province": "Cebu",
+    "region": "Region VII (Central Visayas)",
+    "center_lat": 10.28588867,
+    "center_lon": 124.17570699,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 23511,
+    "name": "Victory Island",
+    "city": "Guiuan",
+    "province": "Eastern Samar",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 11.04636178,
+    "center_lon": 125.62948683,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 23599,
+    "name": "Barangay 1 (Pob.)",
+    "city": "Maslog",
+    "province": "Eastern Samar",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 12.16053788,
+    "center_lon": 125.24639095,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 24029,
+    "name": "Dawahon",
+    "city": "Bato",
+    "province": "Leyte",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 10.26480413,
+    "center_lon": 124.61721408,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 24224,
+    "name": "Bunacan",
+    "city": "Calubian",
+    "province": "Leyte",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 11.4854715,
+    "center_lon": 124.34314873,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 25312,
+    "name": "Barangay 36-A",
+    "city": "Tacloban City (Capital)",
+    "province": "Leyte",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 11.19693875,
+    "center_lon": 124.99325813,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 25806,
+    "name": "Roxas",
+    "city": "Mondragon",
+    "province": "Northern Samar",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 12.53912757,
+    "center_lon": 124.79757219,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 26298,
+    "name": "Darahuway Gote",
+    "city": "City of Catbalogan (Capital)",
+    "province": "Samar (Western Samar)",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 11.74886883,
+    "center_lon": 124.87106354,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 26884,
+    "name": "Poro",
+    "city": "Zumarraga",
+    "province": "Samar (Western Samar)",
+    "region": "Region VIII (Eastern Visayas)",
+    "center_lat": 11.64331762,
+    "center_lon": 124.88462943,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 29474,
+    "name": "Lampinigan",
+    "city": "City of Isabela",
+    "province": "City of Isabela (not a province)",
+    "region": "Region IX (Zamboanga Peninsula)",
+    "center_lat": 6.68857827,
+    "center_lon": 121.87859771,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 29499,
+    "name": "Tampalan",
+    "city": "City of Isabela",
+    "province": "City of Isabela (not a province)",
+    "region": "Region IX (Zamboanga Peninsula)",
+    "center_lat": 6.7098465,
+    "center_lon": 121.96576385,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 33809,
+    "name": "Barangay 30",
+    "city": "City of Manila",
+    "province": "Metropolitan Manila First District",
+    "region": "National Capital Region (NCR)",
+    "center_lat": 14.60388528,
+    "center_lon": 120.96106514,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 34750,
+    "name": "Santa Cruz",
+    "city": "City of Pasig",
+    "province": "Metropolitan Manila Second District",
+    "region": "National Capital Region (NCR)",
+    "center_lat": 14.562997,
+    "center_lon": 121.07941223,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 34892,
+    "name": "Capri",
+    "city": "Quezon City",
+    "province": "Metropolitan Manila Second District",
+    "region": "National Capital Region (NCR)",
+    "center_lat": 14.71649618,
+    "center_lon": 121.0283335,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 35457,
+    "name": "Barangay 200",
+    "city": "Pasay City",
+    "province": "Metropolitan Manila Fourth District",
+    "region": "National Capital Region (NCR)",
+    "center_lat": 14.50799588,
+    "center_lon": 121.00060862,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 35570,
+    "name": "Padangitan",
+    "city": "Danglas",
+    "province": "Abra",
+    "region": "Cordillera Administrative Region (CAR)",
+    "center_lat": 17.64651274,
+    "center_lon": 120.65576327,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 35571,
+    "name": "Pangal",
+    "city": "Danglas",
+    "province": "Abra",
+    "region": "Cordillera Administrative Region (CAR)",
+    "center_lat": 17.65226532,
+    "center_lon": 120.66768013,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 35932,
+    "name": "SLU-SVP Housing Village",
+    "city": "Baguio City",
+    "province": "Benguet",
+    "region": "Cordillera Administrative Region (CAR)",
+    "center_lat": 16.38982111,
+    "center_lon": 120.59004483,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 37687,
+    "name": "Tag-Anongan",
+    "city": "Cortes",
+    "province": "Surigao del Sur",
+    "region": "Region XIII (Caraga)",
+    "center_lat": 9.23157175,
+    "center_lon": 126.19379538,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 37927,
+    "name": "Cab-ilan",
+    "city": "Dinagat",
+    "province": "Dinagat Islands",
+    "region": "Region XIII (Caraga)",
+    "center_lat": 9.94675939,
+    "center_lon": 125.5455282,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39158,
+    "name": "Barangay V Pob. (Porao Island)",
+    "city": "Roxas",
+    "province": "Palawan",
+    "region": "Mimaropa Region",
+    "center_lat": 10.25747669,
+    "center_lon": 119.36826,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39159,
+    "name": "Barangay VI Pob. (Johnson Island)",
+    "city": "Roxas",
+    "province": "Palawan",
+    "region": "Mimaropa Region",
+    "center_lat": 10.25075128,
+    "center_lon": 119.38529151,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39530,
+    "name": "Guanan South (Zone II)",
+    "city": "Maluso",
+    "province": "Basilan",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 6.54828056,
+    "center_lon": 121.86549681,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39668,
+    "name": "Balut",
+    "city": "Bacolod-Kalawi (Bacolod Grande)",
+    "province": "Lanao del Sur",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 7.83361486,
+    "center_lon": 124.15852624,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39744,
+    "name": "Nusa Lumba Ranao",
+    "city": "Balindong (Watu)",
+    "province": "Lanao del Sur",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 7.8814101,
+    "center_lon": 124.21042713,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 39808,
+    "name": "Balut Maito",
+    "city": "Binidayan",
+    "province": "Lanao del Sur",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 7.83046014,
+    "center_lon": 124.17248029,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 40152,
+    "name": "Dansalan",
+    "city": "Marawi City (Capital)",
+    "province": "Lanao del Sur",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 7.99617974,
+    "center_lon": 124.29191867,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 41056,
+    "name": "Bulihkullul",
+    "city": "Siasi",
+    "province": "Sulu",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 5.510218,
+    "center_lon": 120.90633088,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 41079,
+    "name": "Punungan",
+    "city": "Siasi",
+    "province": "Sulu",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 5.52448109,
+    "center_lon": 120.90845554,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 41092,
+    "name": "South Silumpak",
+    "city": "Siasi",
+    "province": "Sulu",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 5.4918105,
+    "center_lon": 120.89421252,
+    "error": "invalid GeoJSON representation"
+  },
+  {
+    "index": 41221,
+    "name": "North Manubul",
+    "city": "Pandami",
+    "province": "Sulu",
+    "region": "Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)",
+    "center_lat": 5.47175122,
+    "center_lon": 120.79975835,
+    "error": "invalid GeoJSON representation"
+  }
+]

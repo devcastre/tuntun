@@ -1,14 +1,19 @@
+import { supabase } from "@/lib/supabase";
 import * as turf from "@turf/turf";
 
-export async function addProvinces(map) {
+export async function addProvinces(map, setSelectedLocation) {
 
-
-    const res = await fetch("/data/provinces_filtered.json");
-    const provincesData = await res.json();
+    const {data, error} = await supabase
+        .rpc('get_provinces_geojson');
+    
+    if (error) {
+        console.error("Failed to fetch provinces:", error);
+        return;
+    }
 
     map.addSource("provinces", {
         type: "geojson",
-        data: provincesData
+        data: data
     });
 
     map.addLayer({
@@ -32,7 +37,7 @@ export async function addProvinces(map) {
     });
 
 
-    const labelPoints = buildProvinceLabelPoints(provincesData, "adm2_name");
+    const labelPoints = buildProvinceLabelPoints(data, "name");
 
     map.addSource("province-label-points", {
         type: "geojson",
@@ -44,16 +49,28 @@ export async function addProvinces(map) {
         type: "symbol",
         source: "province-label-points",
         layout: {
-            "text-field": ["get", "adm2_name"],
-            "text-font": ["Noto Sans Regular"],
+            "text-field": ["get", "name"],
+            "text-font": ["Noto Sans Bold"],
             "text-size": 14,
             "text-allow-overlap": false
+        },
+        paint: {
+            'text-color': "#ff0000"
         }
     });
 
     map.on("click", "provinces-fill", (e) => {
+
         const properties = e.features[0].properties;
-        console.log(properties);
+
+        console.log("province clicked", properties);
+
+
+        setSelectedLocation({
+            type:"province",
+            data:properties
+        });
+
     });
 
     map.on("mouseenter", "provinces-fill", () => {
@@ -63,6 +80,7 @@ export async function addProvinces(map) {
     map.on("mouseleave", "provinces-fill", () => {
         map.getCanvas().style.cursor = "";
     });
+    console.log("setSelectedLocation:", setSelectedLocation);
 }
 
 

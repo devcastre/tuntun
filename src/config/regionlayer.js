@@ -1,10 +1,19 @@
+import { supabase } from "@/lib/supabase";
 
 
-export function addRegions(map){
+export async function addRegions(map, setSelectedLocation){
+
+    const {data, error} = await supabase
+        .rpc('get_regions_geojson')
+
+    if (error) {
+        console.error("Failed to fetch regions:", error);
+        return;
+    }    
 
     map.addSource("regions", {
         type: "geojson",
-        data: "/data/regions.json"
+        data: data
     });
 
 
@@ -34,7 +43,11 @@ export function addRegions(map){
 
         const properties = e.features[0].properties;
 
-        console.log(properties);
+        console.log(properties)
+        setSelectedLocation({
+            type:"region",
+            data:properties
+        });
 
     }); 
 

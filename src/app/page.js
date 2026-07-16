@@ -1,6 +1,7 @@
 'use client'
 
 import Header from "@/components/Header";
+import InfoPanel from "@/components/InfoPanel";
 import LayerControl from "@/components/LayerControl";
 import Map from "@/components/Map";
 import { searchLocation } from "@/services/searchCoordinates";
@@ -11,6 +12,7 @@ export default function Home(){
 
     const [search, setSearch] = useState("");
     const [location,setLocation] = useState(null);
+    const [selectedLocation, setSelectedLocation] = useState(null);
 
 
     const handleSearch = async()=>{
@@ -48,6 +50,10 @@ export default function Home(){
       <div className="h-full w-full bg-blue-100 flex items-center justify-center text-4xl text-gray-500">
         <Map 
           location={location}
+          setSelectedLocation={setSelectedLocation}
+        />
+        <InfoPanel 
+            location={selectedLocation}
         />
       </div>
 
