@@ -6,6 +6,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { addProvinces } from "@/config/provincelayer";
 import { addRegions } from "@/config/regionlayer";
 import { addHospitals } from "@/config/hospitallayer";
+import { addTerminals } from "@/config/terminallayer";
 
 
 
@@ -49,6 +50,8 @@ export default function Map({ location, setSelectedLocation }) {
             // await addProvinces(map, setSelectedLocation)
 
             addHospitals(map, setSelectedLocation)
+
+            addTerminals(map, setSelectedLocation)
 
         });
 

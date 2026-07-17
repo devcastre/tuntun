@@ -30,4 +30,13 @@ export default function InfoPanel({location}){
             </div>
         )
     }
+
+    if(location.type === "terminal"){
+        return (
+            <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-10 w-[90%] max-w-4xl flex items-center justify-between rounded-2xl bg-white px-5 py-4 shadow-lg">
+                <h6>Terminal Information</h6>
+                <p>{location.data.name}</p>
+            </div>
+        )
+    }
 }
