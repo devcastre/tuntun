@@ -1,7 +1,6 @@
 export default function InfoPanel({location}){
 
     if(!location) return null;
-    console.log("InfoPanel:", location);
 
     if(location.type === "region"){
         return (

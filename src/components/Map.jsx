@@ -7,13 +7,16 @@ import { addProvinces } from "@/config/provincelayer";
 import { addRegions } from "@/config/regionlayer";
 import { addHospitals } from "@/config/hospitallayer";
 import { addTerminals } from "@/config/terminallayer";
+import { addFaultlines } from "@/config/faultlinelayer";
+import { addElevation, addSeaLevel } from "@/config/elevation";
 
 
 
-export default function Map({ location, setSelectedLocation }) {
+export default function Map({ searchedLocation, setSelectedLocation, seaLevel }) {
 
     const mapContainer = useRef(null);
     const mapRef = useRef(null);
+    const mapLoaded = useRef(false);
 
 
    
@@ -44,14 +47,21 @@ export default function Map({ location, setSelectedLocation }) {
         
         map.on("load", async() => {
 
+            mapLoaded.current = true;
 
             // await addRegions(map, setSelectedLocation)
 
             // await addProvinces(map, setSelectedLocation)
 
-            addHospitals(map, setSelectedLocation)
+            // addHospitals(map, setSelectedLocation)
 
-            addTerminals(map, setSelectedLocation)
+            // addTerminals(map, setSelectedLocation)
+
+            // addFaultlines(map)
+
+            addElevation(map)
+
+            addSeaLevel(map, seaLevel);
 
         });
 
@@ -68,25 +78,36 @@ export default function Map({ location, setSelectedLocation }) {
 
 
 
-
     useEffect(() => {
 
-        if (!location || !mapRef.current) return;
+        if (!searchedLocation || !mapRef.current) return;
 
 
         mapRef.current.flyTo({
 
             center:[
-                location.lon,
-                location.lat
+                searchedLocation.lon,
+                searchedLocation.lat
             ],
-
             zoom:11
-
         });
 
+    }, [searchedLocation]);
 
-    }, [location]);
+
+    useEffect(() => {
+
+        if (!mapRef.current) return;
+
+        if (!mapLoaded.current) return;
+
+        addSeaLevel(
+            mapRef.current,
+            seaLevel
+        );
+
+    }, [seaLevel]);
+
 
 
 
