@@ -1,0 +1,946 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Babuyan Claro",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1917",
+        "elevation_m": 1070,
+        "province": "Cagayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9524334,
+          19.5250019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Banahaw",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1843",
+        "elevation_m": 2169,
+        "province": "Laguna, Quezon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4923178,
+          14.0675334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bud Dajo",
+        "type": "Volcano",
+        "volcano_type": "Scoria cone",
+        "status": "Active",
+        "last_known_eruption": "1897",
+        "elevation_m": 620,
+        "province": "Sulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0741209,
+          6.0055272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulusan",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "2006-06-28",
+        "elevation_m": 1565,
+        "province": "Sorsogon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0565126,
+          12.7690618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cagua",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1907",
+        "elevation_m": 1160,
+        "province": "Cagayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.120528,
+          18.2161635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camiguin de Babuyanes",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1857",
+        "elevation_m": 712,
+        "province": "Cagayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8613382,
+          18.8328648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hibok-hibok",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1951-12-04",
+        "elevation_m": 1290,
+        "province": "Camiguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6759878,
+          9.1994295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iriga",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1642-01-04",
+        "elevation_m": 1143,
+        "province": "Camarines Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4560219,
+          13.4558062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kanlaon",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "2024-06-03",
+        "elevation_m": 2280,
+        "province": "Negros Occidental / Negros Oriental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1324518,
+          10.4113894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leonard Kniaseff",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 200,
+        "province": "Davao de Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.0626747,
+          7.3939773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Makaturing",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1882-03-18",
+        "elevation_m": 1940,
+        "province": "Lanao del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.3031319,
+          7.6545321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matutum",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1911-03-07",
+        "elevation_m": 2286,
+        "province": "South Cotabato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0761806,
+          6.3600441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mayon",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "06-12-2023",
+        "elevation_m": 2460,
+        "province": "Albay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6858148,
+          13.2558072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pinatubo",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1992-07-09",
+        "elevation_m": 1445,
+        "province": "Zambales / Tarlac / Pampanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3490617,
+          15.1445564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taal",
+        "type": "Volcano",
+        "volcano_type": "Tuff cone",
+        "status": "Active",
+        "last_known_eruption": "2024-10-02",
+        "elevation_m": 311,
+        "province": "Batangas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9985863,
+          14.0106736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smith",
+        "type": "Volcano",
+        "volcano_type": "Scoria cone",
+        "status": "Active",
+        "last_known_eruption": "1924",
+        "elevation_m": 688,
+        "province": "Cagayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9126113,
+          19.5382622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parker",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1824,
+        "province": "South Cotabato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8887021,
+          6.1022146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balatukan",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 2400,
+        "province": "Misamis Oriental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9757909,
+          8.7498359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Latukan",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 2328,
+        "province": "Lanao del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.438534,
+          7.65458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urot",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 430,
+        "province": "Sulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2583333,
+          5.9833333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biliran (Anas)",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1015,
+        "province": "Biliran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5061224,
+          11.5344549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cuernos de Negros (Magaso)",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1903,
+        "province": "Negros Oriental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.1778105,
+          9.2445063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabalian",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 945,
+        "province": "Southern Leyte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2192013,
+          10.2777127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariveles",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1388,
+        "province": "Bataan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4815139,
+          14.5284639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silay",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1535,
+        "province": "Negros Occidental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2334354,
+          10.7690319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Balut",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 840,
+        "province": "Sarangani / Davao Occidental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.376284,
+          5.3981517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ragang",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1916-07",
+        "elevation_m": 2815,
+        "province": "Lanao del Sur / Cotabato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5072308,
+          7.6908627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musuan (Calayo)",
+        "type": "Volcano",
+        "volcano_type": "Scoria cone",
+        "status": "Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 646,
+        "province": "Bukidnon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0696915,
+          7.8769831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iraya",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "1454",
+        "elevation_m": 1009,
+        "province": "Batanes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0115938,
+          20.466684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apo",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 2954,
+        "province": "Cotabato / Davao del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2709954,
+          6.9873416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandalagan",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1879,
+        "province": "Negros Occidental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.2357928,
+          10.6371665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalatungan",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 2860,
+        "province": "Bukidnon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8026895,
+          7.9550885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cancajanag",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 900,
+        "province": "Leyte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.777545,
+          11.0607788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahagnao",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 860,
+        "province": "Leyte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8651007,
+          10.8804194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Didicas",
+        "type": "Volcano",
+        "volcano_type": "Lava dome",
+        "status": "Active",
+        "last_known_eruption": "1978-01-06",
+        "elevation_m": 228,
+        "province": "Cagayan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2035486,
+          19.0745917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laguna Caldera (Volcanic Field)",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "~1200000 BCE",
+        "elevation_m": 743,
+        "province": "Laguna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.25265,
+          14.3230519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amorong",
+        "type": "Volcano",
+        "volcano_type": "Lava dome",
+        "status": "Potentially Active",
+        "last_known_eruption": "Pleistocene",
+        "elevation_m": 376,
+        "province": "Pangasinan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.742,
+          15.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corregidor",
+        "type": "Volcano",
+        "volcano_type": "Caldera",
+        "status": "Potentially Active",
+        "last_known_eruption": "Pleistocene (~1.1 Ma)",
+        "elevation_m": 173,
+        "province": "Cavite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58,
+          14.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isarog",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Active",
+        "last_known_eruption": "c. 3500 BCE",
+        "elevation_m": 2000,
+        "province": "Camarines Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.38,
+          13.658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malinao",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "1980 (unconfirmed)",
+        "elevation_m": 1548,
+        "province": "Albay / Camarines Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.608,
+          13.416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santo Tomas (Tonglon)",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "1641 (unconfirmed)",
+        "elevation_m": 2260,
+        "province": "Benguet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55,
+          16.33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Labo",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano / Lava dome",
+        "status": "Potentially Active",
+        "last_known_eruption": "~27,000 BP",
+        "elevation_m": 1544,
+        "province": "Camarines Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.792,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malindig",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1157,
+        "province": "Marinduque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.018,
+          13.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Natib",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Holocene",
+        "elevation_m": 1287,
+        "province": "Bataan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4,
+          14.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panay",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Pleistocene",
+        "elevation_m": 501,
+        "province": "Batangas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.893,
+          13.723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Cristobal",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 1470,
+        "province": "Laguna / Quezon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433,
+          14.067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dakut",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 474,
+        "province": "Sulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.933,
+          5.733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinumaan",
+        "type": "Volcano",
+        "volcano_type": "Cone volcano",
+        "status": "Potentially Active",
+        "last_known_eruption": "Unknown",
+        "elevation_m": 785,
+        "province": "Sulu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1,
+          6.033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arayat",
+        "type": "Volcano",
+        "volcano_type": "Stratovolcano / Composite",
+        "status": "Potentially Active",
+        "elevation_m": 1026,
+        "province": "Pampanga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.742, 15.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sulu Volcanic Field",
+        "type": "Volcanic Field",
+        "status": "Potentially Active",
+        "province": "Sulu",
+        "notes": "Multiple volcanic centers including Jolo volcanic cluster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.125, 6.000]
+      }
+    }
+  ]
+}

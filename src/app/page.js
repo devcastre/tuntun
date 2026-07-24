@@ -58,10 +58,10 @@ export default function Home(){
         <InfoPanel 
             location={selectedLocation}
         />
-        <SeaLevelController 
+        {/* <SeaLevelController 
           value={seaLevel}
           setValue={setSeaLevel}          
-        />
+        /> */}
       </div>
 
 

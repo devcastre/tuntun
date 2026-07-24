@@ -9,6 +9,9 @@ import { addHospitals } from "@/config/hospitallayer";
 import { addTerminals } from "@/config/terminallayer";
 import { addFaultlines } from "@/config/faultlinelayer";
 import { addElevation, addSeaLevel } from "@/config/elevation";
+import { addFirestations } from "@/config/firestationlayer";
+import { addMalls } from "@/config/malllayer";
+import { addVolcanoes } from "@/config/volcanolayer";
 
 
 
@@ -59,9 +62,15 @@ export default function Map({ searchedLocation, setSelectedLocation, seaLevel })
 
             // addFaultlines(map)
 
-            addElevation(map)
+            // addElevation(map)
 
-            addSeaLevel(map, seaLevel);
+            // addSeaLevel(map, seaLevel);
+
+            // addFirestations(map, setSelectedLocation)
+
+            // addMalls(map, setSelectedLocation)
+
+            addVolcanoes(map, setSelectedLocation)
 
         });
 
